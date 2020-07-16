@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/recordingFragment">
+
+    <fragment
+        android:id="@+id/recordingFragment"
+        android:name="com.example.recordaudio.recording.RecordingFragment"
+        android:label="RecordingFragment"
+        tools:layout="@layout/fragment_recording">
+        <action
+            android:id="@+id/action_recordingFragment_to_recordingListFragment"
+            app:destination="@id/recordingListFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recordingListFragment"
+        android:name="com.example.recordaudio.recordinglist.RecordingListFragment"
+        android:label="RecordingListFragment"
+        tools:layout="@layout/fragment_recording_list">
+        <action
+            android:id="@+id/action_recordingListFragment_to_recordingFragment"
+            app:destination="@id/recordingFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/slide_out"
+            app:popUpTo="@id/recordingFragment" />
+    </fragment>
+
+</navigation>

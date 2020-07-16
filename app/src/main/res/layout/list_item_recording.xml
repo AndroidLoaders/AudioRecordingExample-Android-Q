@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingTop="@dimen/dimen_10"
+    android:paddingBottom="@dimen/dimen_10">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_10"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/view_size_36"
+        app:layout_constraintEnd_toStartOf="@id/ivPlayPause"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCreatedOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_10"
+        android:gravity="center_vertical"
+        android:minHeight="@dimen/view_size_36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvName" />
+
+    <ImageView
+        android:id="@+id/ivPlayPause"
+        android:layout_width="@dimen/view_size_36"
+        android:layout_height="@dimen/view_size_36"
+        android:layout_marginStart="@dimen/dimen_10"
+        android:layout_marginEnd="@dimen/dimen_10"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_play"
+        app:layout_constraintBottom_toBottomOf="@id/tvCreatedOn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvName"
+        app:layout_constraintTop_toTopOf="@id/tvName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

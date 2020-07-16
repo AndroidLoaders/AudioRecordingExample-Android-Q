@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_4">6dp</dimen>
+    <dimen name="dimen_7">9dp</dimen>
+    <dimen name="dimen_10">12dp</dimen>
+    <dimen name="dimen_11">13dp</dimen>
+    <dimen name="dimen_12">14dp</dimen>
+    <dimen name="dimen_13">15dp</dimen>
+    <dimen name="dimen_14">16dp</dimen>
+    <dimen name="dimen_15">17dp</dimen>
+    <dimen name="dimen_20">22dp</dimen>
+
+    <dimen name="view_size_36">38dp</dimen>
+    <dimen name="view_size_38">40dp</dimen>
+    <dimen name="view_size_40">42dp</dimen>
+    <dimen name="view_size_42">44dp</dimen>
+    <dimen name="view_size_43">45dp</dimen>
+    <dimen name="view_size_44">46dp</dimen>
+    <dimen name="view_size_45">47dp</dimen>
+    <dimen name="view_size_46">48dp</dimen>
+    <dimen name="view_size_47">49dp</dimen>
+    <dimen name="view_size_48">50dp</dimen>
+    <dimen name="view_size_49">51dp</dimen>
+    <dimen name="view_size_50">52dp</dimen>
+
+    <dimen name="view_size_52">54dp</dimen>
+    <dimen name="view_size_54">56dp</dimen>
+    <dimen name="view_size_56">58dp</dimen>
+    <dimen name="view_size_58">60dp</dimen>
+    <dimen name="view_size_60">62dp</dimen>
+    <dimen name="view_size_62">64dp</dimen>
+    <dimen name="view_size_66">68dp</dimen>
+    <dimen name="view_size_78">80dp</dimen>
+
+    <dimen name="text_11">12sp</dimen>
+    <dimen name="text_12">13sp</dimen>
+    <dimen name="text_13">14sp</dimen>
+    <dimen name="text_14">15sp</dimen>
+    <dimen name="text_15">16sp</dimen>
+    <dimen name="text_16">17sp</dimen>
+    <dimen name="text_17">18sp</dimen>
+    <dimen name="text_18">19sp</dimen>
+    <dimen name="text_45">46sp</dimen>
+</resources>

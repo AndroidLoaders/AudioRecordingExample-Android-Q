@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RecordAudio</string>
+
+    <string name="press_mic_to_start_recording">Press the mike button to\nstart the recording.</string>
+    <string name="media_player">Media Player</string>
+    <string name="permission">Permission</string>
+    <string name="grant">Grant</string>
+    <string name="not_now">Not now</string>
+    <string name="can_not_handle_permission">Can not handle <b>Audio Recording</b> permission</string>
+    <string name="permission_denied">We will need following permissions from you,\n\n<b>Record Audio :-</b> To start/stop recording of an Audio\n<b>Storage Permission :-</b> To save/store the recorded audio to your device.\n\nWithout this permissions you want be able to complete the process of Audio recording</string>
+</resources>
